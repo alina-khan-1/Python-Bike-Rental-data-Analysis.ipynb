@@ -1,7 +1,7 @@
 # Bike Sharing Analysis Project
 
 ### Overview
-This project is an Exploratory Data Analysis (EDA) of a Bike Sharing Dataset. The main goal is to understand how different factors like season, weather, user type, and time of day affect bike rental demand. The analysis helps identify business patterns and give ideas for better operations and marketing.
+This project is an Exploratory Data Analysis (EDA) of a Bike Sharing Dataset. The main goal is to understand how different factors like season, weather, user type, and time of day affect bike rental demand. The analysis helps identify business patterns and gives ideas for better operations and marketing.
 
 ### Project Workflow
 - Data Cleaning & Preprocessing
@@ -36,25 +36,48 @@ This project is an Exploratory Data Analysis (EDA) of a Bike Sharing Dataset. Th
 - **Weekends:** Rentals are evenly spread from 10:00 to 18:00.
 
 **4. Weekdays vs. Weekends**
-- Weekday rentals: ~2.29M | Weekend rentals: ~1M
+- **Weekday rentals:** ~2.29M | **Weekend rentals:** ~1M
 
-5. 👥 User Behavior
-Registered Users: 81.2% of rentals (2.67M), rent during commute hours.
+**5. User Behavior**
+- **Registered Users:** 81.2% of rentals (2.67M), rent during commute hours.
+- **Casual Users:** Only 18.8% (620k), rent mostly during daytime.
 
-Casual Users: Only 18.8% (620k), rent mostly during daytime.
+**6. Holidays vs. Non-Holidays**
+- Rentals drop significantly during holidays.
+- On non-holidays, rentals follow commute trends (peaks in morning/evening).
 
-Strategy: Keep registered users loyal with perks. Convert casual users with weekend offers or loyalty points.
+**7. Environmental Effects**
+- Rentals increase with temperature (up to a point).
+- Wind and humidity have small negative impacts.
 
-6. 🎉 Holidays vs. Non-Holidays
-Rentals drop significantly during holidays.
+### Business Insights
+- Stock more bikes in the Fall, especially near work areas and metro hubs.
+- Offer weekday passes and morning commute offers for registered users.
+- Run weekend offers and group discounts to attract casual users.
+- Target marketing in Spring with value combos or referral programs to improve off-season usage.
+- Promote clear-weather days with time-limited offers to increase quick rentals.
+- Use weather data for supply planning, reducing idle bikes on rainy/snowy days.
 
-On non-holidays, rentals follow commute trends (peaks in morning/evening).
+### Tools & Libraries
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- Data Visualization Techniques
 
-Strategy: Run holiday campaigns to encourage biking for fun or leisure.
+###  Visualization Techniques Used
+- Line & Bar Charts
+- Correlation Matrix
+- Heatmaps
+- Stacked Bar Chart
+- Pie Chart
+- Scatter Plot
 
-7. 🌡️ Environmental Effects
-Rentals increase with temperature (up to a point).
+###  Why This Project?
+This project helped me:
+- Practice real-world EDA on a time-series dataset
+- Learn how seasonality, time, and weather affect business
+- Improve my skills in visualizing data and drawing useful insights
+- Understand how data supports strategic decisions in mobility services
 
-Wind and humidity have small negative impacts.
-
-Strategy: Monitor weather forecasts to predict demand and prepare accordingly.
+###  Dataset Source
+The dataset was obtained from Kaggle
+- <a href = "https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/data">Kaggle – Bike Sharing Dataset</a>
